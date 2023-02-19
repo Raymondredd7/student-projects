@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
+import Footer from '/components/layout/Footer'
 
 const Navigation = dynamic(() => import('@/components/layout/Navigation'), { ssr: false })
 
@@ -26,7 +27,7 @@ export default function Layout({ children, title = null }) {
 
         {children}
 
-        {/* Footer here */}
+        <Footer />
       </div>
     </>
   )

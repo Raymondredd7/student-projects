@@ -22,7 +22,7 @@ export default function Navigation() {
       <div className='w-full px-8'>
         <div className="row py-6 justify-between">
           <div className="col-6">
-            <p className="font-bold text-gray-800 text-2xl">Students Projects</p>
+            <p className="font-bold text-black text-2xl">Students Projects</p>
           </div>
           <div className="col-2 md:hidden block">
             <label htmlFor="menu-toggle" className="cursor-pointer">
