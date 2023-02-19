@@ -1,18 +1,23 @@
 import { Component } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 class Card extends Component {
   render() {
-    const { title, text, imageSrc } = this.props
+    const { title, text, imageSrc, link } = this.props
     return (
       <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
         <Image className="w-full" src={imageSrc} width={400} height={300} alt="Card image" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{title}</div>
           <p className="text-gray-700 text-base">{text}</p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-6">
-            Read More
-          </button>
+          <div className="mt-4">
+            <Link href={link}>
+              <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Read more
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
     )
@@ -28,16 +33,19 @@ const MyComponent = () => {
           title="MASSUM"
           text="Our school tradıtıonally takes part ın the Educational Rendezvous wıtch ıs organızed by..."
           imageSrc="/images/massum.jpg"
+          link="/massum"
         />
         <Card
           title="NANSEN"
           text="In the school year 2017/2018 professors from our school are taking part in Nansen model for integrated education..."
           imageSrc="/images/nansen.jpg"
+          link="/nansen"
         />
         <Card
           title="ENGLISH CLUB"
           text="Every Monday after school classes our students have activities in the English club. The students are of mixed nationalities..."
           imageSrc="/images/enclub.jpg"
+          link="/englishclub"
         />
       </div>
       <div className="flex flex-wrap justify-center">
@@ -45,16 +53,19 @@ const MyComponent = () => {
           title="MOVIE NIGHT"
           text="Every Monday after school classes our students have activities in the English club. The students are..."
           imageSrc="/images/hero.jpg"
+          link="/movienight"
         />
         <Card
           title="SPRING DAY"
           text="On the Spring Day 21 March, the students were cleaning the school yard and were planting trees and flowers..."
           imageSrc="/images/hero.jpg"
+          link="/springday"
         />
         <Card
           title="SPECIAL GIFTS FOR CHILDREN"
           text="The students from the Architecture program are making small houses and jewelry boxes for the children with special needs..."
           imageSrc="/images/hero.jpg"
+          link="/specialgifts"
         />
       </div>
     </div>
