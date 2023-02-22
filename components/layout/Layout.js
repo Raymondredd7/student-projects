@@ -10,7 +10,7 @@ export default function Layout({ children, title = null }) {
   return (
     <>
       <Head>
-        <title>{title ? `${title} - Projektet e Studenteve` : 'Projektet e Studenteve'}</title>
+        <title>{title ? `${title} - SHMTK` : 'SHTMK'}</title>
 
         {/* Favicons */}
         <link rel="icon" href="/favicons/favicons.ico" sizes="32x32" />

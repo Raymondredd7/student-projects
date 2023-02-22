@@ -18,11 +18,11 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div className="bg-white shadow-lg flex items-center">
-      <div className='w-full px-8'>
+    <div className="bg-white  flex items-center">
+      <div className="w-full px-8">
         <div className="row py-6 justify-between">
           <div className="col-6">
-            <p className="font-bold text-black text-2xl">Projektet e Studenteve</p>
+            <p className="font-bold text-black text-2xl cursor-pointer uppercase">SHMTK</p>
           </div>
           <div className="col-2 md:hidden block">
             <label htmlFor="menu-toggle" className="cursor-pointer">
@@ -39,7 +39,7 @@ export default function Navigation() {
               menu ? ' flex' : ' hidden'
             }`}
           >
-            <ul className="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
+            <ul className="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center font-xs uppercase font-bold">
               <NavItem href="/">Home</NavItem>
               <NavItem href="/projects">Project</NavItem>
               <NavItem href="/about">About</NavItem>
