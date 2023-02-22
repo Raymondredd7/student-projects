@@ -4,7 +4,7 @@ import Layout from '@/components/layout/Layout'
 export default function massum() {
   return (
     <Layout>
-        <Massum />
+      <Massum />
     </Layout>
   )
 }
