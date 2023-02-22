@@ -16,7 +16,7 @@ export default function HeaderSection() {
           <Link href="/projects">
             <button
               type="button"
-              class="mt-6 inline-block p-8  flex items-center h-[10%] text-white  text-xs leading-tight uppercase rounded text-base font-bold uppercase leading-[1em] hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in   bg-[#f619197d]/40  border-solid border-2 border-[#f619197d]"
+              className="mt-6 inline-block p-8  flex items-center h-[10%] text-white  text-xs leading-tight uppercase rounded text-base font-bold uppercase leading-[1em] hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in   bg-[#f619197d]/40  border-solid border-2 border-[#f619197d]"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
@@ -27,7 +27,7 @@ export default function HeaderSection() {
           <Link href="/projects">
             <button
               type="button"
-              class="mt-6 inline-block p-8  flex items-center h-[10%] hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in  text-white  text-xs leading-tight uppercase rounded text-base font-bold uppercase leading-[1em] bg-transparent  border-solid border-2 border-white"
+              className="mt-6 inline-block p-8  flex items-center h-[10%] hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in  text-white  text-xs leading-tight uppercase rounded text-base font-bold uppercase leading-[1em] bg-transparent  border-solid border-2 border-white"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
