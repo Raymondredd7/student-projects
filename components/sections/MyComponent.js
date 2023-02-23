@@ -14,7 +14,7 @@ class Card extends Component {
         </div>
         <div className="px-6 py-4">
           <Link href={link}>
-            <a className="bg-[#f619197d] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <a className="bg-red-700 hover:bg-red-500 text-white font-bold py-2 px-4 rounded">
               Lexo me shume
             </a>
           </Link>
