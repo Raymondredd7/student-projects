@@ -9,7 +9,7 @@ export default function HeaderSection() {
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent" />
       </div>
       <div className="h-full flex flex-col justify-center items-center">
-        <h1 className="text-white	text-5xl text-7xl font-bold capitalize w-[35%] text-center leading-[1.2em]">
+        <h1 className="text-white text-7xl font-bold capitalize w-[35%] text-center leading-[1.2em]">
           Projektet e nxenesve te shkolles SHMTK
         </h1>
         <div className="flex gap-4 h-[20%]">
@@ -27,7 +27,7 @@ export default function HeaderSection() {
           <Link href="/projects">
             <button
               type="button"
-              className="mt-6 inline-block p-8  flex items-center h-[10%] hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in  text-white  text-xs leading-tight uppercase rounded text-base font-bold uppercase leading-[1em] bg-transparent  border-solid border-2 border-white"
+              className="mt-6 p-8 flex items-center h-[10%] hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in  text-white uppercase rounded text-base font-bold leading-[1em] bg-transparent  border-solid border-2 border-white"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
