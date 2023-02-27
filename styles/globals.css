@@ -4,8 +4,14 @@
 
 .splide__arrows .splide__arrow--prev {
   margin-left: -100px;
+  background: none;
 }
 
 .splide__arrows .splide__arrow--next {
   margin-right: -100px;
+  background: none;
+}
+
+.splide__arrow svg {
+  height: 0;
 }
