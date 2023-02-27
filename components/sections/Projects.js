@@ -1,7 +1,7 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import Image from 'next/image'
 import '@splidejs/react-splide/css'
-import projects from 'content/projects'
+import { projects } from 'content/projects'
 
 export default function Projects() {
   return (
@@ -11,43 +11,34 @@ export default function Projects() {
           options={{
             rewind: true,
             gap: '1rem',
+            pagination: false,
           }}
           aria-label="My Favorite Images"
         >
-          <div>
-            <SplideSlide>
-              <>
-                {projects.projects['src1'].map((item) => (
-                  <Cards src={item} />
-                ))}
-                {projects.projects['src2'].map((item) => (
-                  <Cards src={item} />
-                ))}
-                {projects.projects['src3'].map((item) => (
-                  <Cards src={item} />
-                ))}
-              </>
+          {projects.map((items, index) => (
+            <SplideSlide key={index}>
+              <Cards src1={items.src1} src2={items.src2} src3={items.src3} />
             </SplideSlide>
-          </div>
+          ))}
         </Splide>
       </div>
     </div>
   )
 }
 
-const Cards = ({ src }) => {
+const Cards = ({ src1, src2, src3 }) => {
   return (
-    <div className="grid lg:grid-cols-2 grid-rows-5 lg:grid-rows-4 overflow-hidden gap-4">
+    <div className="grid lg:grid-cols-2 grid-rows-5 lg:grid-rows-4 gap-4">
       <div class="lg:row-span-4 order-first lg:order-none relative">
-        <Image src={src} layout="fill" className="object-cover" />
+        <Image src={src1} layout="fill" className="w-full object-cover" />
       </div>
 
       <div class="lg:row-span-2 h-80 relative overflow-hidden">
-        <Image src={src} layout="fill" className="object-cover" />
+        <Image src={src2} layout="fill" className="w-full object-cover" />
       </div>
 
       <div class="lg:row-span-2 h-80 relative  overflow-hidden">
-        <Image src={src} layout="fill" className="object-cover" />
+        <Image src={src3} layout="fill" className="w-full object-cover" />
       </div>
     </div>
   )

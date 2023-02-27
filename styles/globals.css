@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.splide__arrows .splide__arrow--prev {
+  margin-left: -100px;
+}
+
+.splide__arrows .splide__arrow--next {
+  margin-right: -100px;
+}
