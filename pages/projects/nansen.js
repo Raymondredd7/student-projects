@@ -1,10 +1,10 @@
 import Layout from '@/components/layout/Layout'
-import Gallery from '@/components/sections/Gallery'
+import Nansen from '@/components/sections/Nansen'
 
 export default function nansen() {
   return (
     <Layout>
-      <Gallery />
+      <Nansen />
     </Layout>
   )
 }
