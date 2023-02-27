@@ -13,6 +13,8 @@ export default function Projects() {
             rewind: true,
             gap: '1rem',
             pagination: false,
+            autoplay: true,
+            speed: '2000',
           }}
           aria-label="My Favorite Images"
         >
