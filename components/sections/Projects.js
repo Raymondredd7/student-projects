@@ -40,15 +40,15 @@ const Cards = ({ src1, src2, src3, title, desc, href, button }) => {
     <div>
       <div className="grid lg:grid-cols-2 grid-rows-5 lg:grid-rows-4 gap-4">
         <div className="lg:row-span-4 order-first lg:order-none relative">
-          <Image src={src1} layout="fill" className="w-full object-cover" />
+          <Image src={src1} layout="fill" alt="Image" className="w-full object-cover" />
         </div>
 
         <div class="lg:row-span-2 h-80 relative overflow-hidden">
-          <Image src={src2} layout="fill" className="w-full object-cover" />
+          <Image src={src2} layout="fill" alt="Image" className="w-full object-cover" />
         </div>
 
         <div class="lg:row-span-2 h-80 relative  overflow-hidden">
-          <Image src={src3} layout="fill" className="w-full object-cover" />
+          <Image src={src3} layout="fill" alt="Image" className="w-full object-cover" />
         </div>
       </div>
       <div className="flex items-center justify-between mt-12">

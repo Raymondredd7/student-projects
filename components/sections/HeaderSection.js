@@ -5,7 +5,7 @@ export default function HeaderSection() {
   return (
     <div className="relative mx-8 h-[88.8vh]">
       <div className="absolute -z-20 top-0 w-full h-full ">
-        <Image src="/images/hero.jpg" layout="fill" className="object-cover " />
+        <Image src="/images/hero.jpg" layout="fill" className="object-cover" alt="Image" />
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent" />
       </div>
       <div className="h-full flex flex-col justify-center items-center">
