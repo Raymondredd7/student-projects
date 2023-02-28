@@ -1,7 +1,8 @@
-import { Splide, SplideSlide } from '@splidejs/react-splide'
-import Image from 'next/image'
 import '@splidejs/react-splide/css'
+
+import { Splide, SplideSlide } from '@splidejs/react-splide'
 import { projects } from 'content/projects'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Projects() {
@@ -45,11 +46,11 @@ const Cards = ({ src1, src2, src3, title, desc, href, button }) => {
           <Image src={src1} layout="fill" alt="Image" className="w-full object-cover" />
         </div>
 
-        <div class="lg:row-span-2 h-80 relative overflow-hidden">
+        <div className="lg:row-span-2 h-80 relative overflow-hidden">
           <Image src={src2} layout="fill" alt="Image" className="w-full object-cover" />
         </div>
 
-        <div class="lg:row-span-2 h-80 relative  overflow-hidden">
+        <div className="lg:row-span-2 h-80 relative  overflow-hidden">
           <Image src={src3} layout="fill" alt="Image" className="w-full object-cover" />
         </div>
       </div>

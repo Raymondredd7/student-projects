@@ -9,7 +9,12 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image src="/images/leadership/bs.jpg" layout="fill" className="object-contain" />
+              <Image
+                src="/images/leadership/bs.jpg"
+                alt="BS"
+                layout="fill"
+                className="object-contain"
+              />
             </div>
             <div className="text-lg font-bold mt-4">Besir S</div>
             <div className="text-base mb-4">Director</div>
@@ -18,7 +23,12 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image src="/images/leadership/lt.jpg" layout="fill" className="object-contain" />
+              <Image
+                src="/images/leadership/lt.jpg"
+                alt="LT"
+                layout="fill"
+                className="object-contain"
+              />
             </div>
             <div className="text-lg font-bold mt-4">Lindita T</div>
             <div className="text-base mb-4">Dp. Director</div>
@@ -27,7 +37,12 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image src="/images/leadership/ai.jpg" layout="fill" className="object-contain" />
+              <Image
+                src="/images/leadership/ai.jpg"
+                alt="AI"
+                layout="fill"
+                className="object-contain"
+              />
             </div>
             <div className="text-lg font-bold mt-4">Ajsel I</div>
             <div className="text-base mb-4">Pedagogue</div>
@@ -36,7 +51,12 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image src="/images/leadership/em.jpg" layout="fill" className="object-contain" />
+              <Image
+                src="/images/leadership/em.jpg"
+                alt="EM"
+                layout="fill"
+                className="object-contain"
+              />
             </div>
             <div className="text-lg font-bold mt-4">Ekrem M</div>
             <div className="text-base mb-4">Dp. Director of Practice</div>
@@ -45,7 +65,12 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image src="/images/leadership/ym.jpg" layout="fill" className="object-contain" />
+              <Image
+                src="/images/leadership/ym.jpg"
+                alt="YM"
+                layout="fill"
+                className="object-contain"
+              />
             </div>
             <div className="text-lg font-bold mt-4">Yllzana M</div>
             <div className="text-base mb-4">Psychologist</div>

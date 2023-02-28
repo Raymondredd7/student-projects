@@ -1,5 +1,5 @@
-import Massum from '@/components/sections/Massum'
 import Layout from '@/components/layout/Layout'
+import Massum from '@/components/sections/Massum'
 
 export default function massum() {
   return (
