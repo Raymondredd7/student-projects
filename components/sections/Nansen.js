@@ -6,7 +6,7 @@ const Nansen = () => {
       <div className="container py-12">
         <div className="w-full h-[600px] relative my-8">
           <Image
-            src="/images/massum/image33.jpg"
+            src="/images/projects/nansen.jpg"
             layout="fill"
             alt="Image 4"
             className="object-cover"
@@ -29,10 +29,9 @@ const Nansen = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <Image src="/images/massum/m1.jpg" width={300} height={300} alt="Image 1" />
-            <Image src="/images/massum/m2.jpg" width={300} height={300} alt="Image 2" />
-            <Image src="/images/massum/m3.jpg" width={300} height={300} alt="Image 3" />
-            <Image src="/images/massum/m4.jpg" width={300} height={300} alt="Image 4" />
+            <Image src="/images/nansen/n1.jpg" width={300} height={300} alt="Image 1" />
+            <Image src="/images/nansen/n2.jpg" width={300} height={300} alt="Image 2" />
+            <Image src="/images/nansen/n3.jpg" width={300} height={300} alt="Image 3" />
           </div>
         </div>
       </div>

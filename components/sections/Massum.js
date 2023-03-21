@@ -46,7 +46,7 @@ const Massum = () => {
       <div className="container py-12">
         <div className="w-full h-[600px] relative my-8">
           <Image
-            src="/images/massum/image33.jpg"
+            src="/images/massum/m1.jpg"
             layout="fill"
             alt="Image 4"
             className="object-cover"

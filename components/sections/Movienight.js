@@ -11,8 +11,8 @@ const Movienight = () => {
           discussion.
         </p>
         <div className="grid grid-cols-2 gap-4">
-          <Image src="/images/massum/m1.jpg" width={600} height={600} alt="Image 1" />
-          <Image src="/images/massum/m2.jpg" width={600} height={600} alt="Image 2" />
+          <Image src="/images/movienight/m2.jpg" width={600} height={600} alt="Image 1" />
+          <Image src="/images/movienight/m3.jpg" width={600} height={600} alt="Image 2" />
         </div>
       </div>
     </div>
