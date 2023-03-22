@@ -65,7 +65,12 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image src="/images/leadership/ym.jpg" alt="About Us" width={600} height={400} />
+              <Image
+                src="/images/leadership/ym.jpg"
+                alt="ym"
+                layout="fill"
+                className="object-contain"
+              />
             </div>
             <div className="text-lg font-bold mt-4">Yllzana M</div>
             <div className="text-base mb-4">Psychologist</div>
