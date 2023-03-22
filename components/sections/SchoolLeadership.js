@@ -24,7 +24,7 @@ const SchoolLeadership = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
               <Image
-                src="/images/leadership/lt.jpg"
+                src="/images/leadership/it.jpg"
                 alt="lt"
                 layout="fill"
                 className="object-contain"
