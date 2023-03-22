@@ -11,7 +11,7 @@ const SchoolLeadership = () => {
             <div className="relative w-48 h-48">
               <Image
                 src="/images/leadership/bs.jpg"
-                alt="BS"
+                alt="bs"
                 layout="fill"
                 className="object-contain"
               />
@@ -25,7 +25,7 @@ const SchoolLeadership = () => {
             <div className="relative w-48 h-48">
               <Image
                 src="/images/leadership/lt.jpg"
-                alt="LT"
+                alt="lt"
                 layout="fill"
                 className="object-contain"
               />
@@ -39,7 +39,7 @@ const SchoolLeadership = () => {
             <div className="relative w-48 h-48">
               <Image
                 src="/images/leadership/ai.jpg"
-                alt="AI"
+                alt="ai"
                 layout="fill"
                 className="object-contain"
               />
@@ -53,7 +53,7 @@ const SchoolLeadership = () => {
             <div className="relative w-48 h-48">
               <Image
                 src="/images/leadership/em.jpg"
-                alt="EM"
+                alt="em"
                 layout="fill"
                 className="object-contain"
               />
@@ -65,12 +65,7 @@ const SchoolLeadership = () => {
         <div className="max-w-sm  overflow-hidden shadow-lg m-4">
           <div className="flex flex-col items-center justify-center">
             <div className="relative w-48 h-48">
-              <Image
-                src="/images/leadership/ym.jpg"
-                alt="YM"
-                layout="fill"
-                className="object-contain"
-              />
+              <Image src="/images/leadership/ym.jpg" alt="About Us" width={600} height={400} />
             </div>
             <div className="text-lg font-bold mt-4">Yllzana M</div>
             <div className="text-base mb-4">Psychologist</div>
