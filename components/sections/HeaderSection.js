@@ -24,7 +24,7 @@ export default function HeaderSection() {
             </button>
           </Link>
 
-          <Link href="/projects">
+          <Link href="/about">
             <button
               type="button"
               className="mt-6 p-8 w-52 flex items-center justify-center	 h-[10%]  hover:bg-[#818a91]/70 hover:mt-10 hover:border-[#818a91]  hover:transition-opacity hover:ease-in  text-white uppercase rounded text-base font-bold leading-[1em] bg-transparent  border-solid border-2 border-white"

@@ -1,7 +1,7 @@
 module.exports = {
   projects: [
     {
-      src1: '/images/massum/m1.jpg',
+      src1: '/images/projects/massum.jpg',
       src2: '/images/massum/m2.jpg',
       src3: '/images/massum/m3.jpg',
       title: 'Massum',
