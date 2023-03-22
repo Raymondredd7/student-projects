@@ -6,7 +6,7 @@ module.exports = {
       src3: '/images/massum/m3.jpg',
       title: 'Massum',
       desc: 'Where he who in semantics, better unavoidable, own, the her was confidence to organization anywhere gods throughout. And a remedies. At its are his concept the seen to as return those english expected know be heavily was offers with for…',
-      button: 'Read More',
+      button: 'Lexo me shume',
       href: '/projects/massum',
     },
     {
@@ -15,7 +15,7 @@ module.exports = {
       src3: '/images/nansen/n3.jpg',
       title: 'Nansen',
       desc: 'Where he who in semantics, better unavoidable, own, the her was confidence to organization anywhere gods throughout. And a remedies. At its are his concept the seen to as return those english expected know be heavily was offers with for…',
-      button: 'Read More',
+      button: 'Lexo me shume',
       href: '/projects/nansen',
     },
     {
@@ -24,7 +24,7 @@ module.exports = {
       src3: '/images/movienight/m3.jpg',
       title: 'Movie Night',
       desc: 'Where he who in semantics, better unavoidable, own, the her was confidence to organization anywhere gods throughout. And a remedies. At its are his concept the seen to as return those english expected know be heavily was offers with for…',
-      button: 'Read More',
+      button: 'Lexo me shume',
       href: '/projects/movienight',
     },
   ],
